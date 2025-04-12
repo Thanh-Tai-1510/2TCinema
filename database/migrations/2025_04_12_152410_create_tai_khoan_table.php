@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id('ID_TaiKhoan');
             $table->string('TenDN', 50);
             $table->string('MatKhau', 100); 
-            $table->string('VaiTro', 50);
+            $table->integer('VaiTro');
             $table->string('TrangThai', 50);
             $table->unsignedBigInteger('ID_CCCD');
 
