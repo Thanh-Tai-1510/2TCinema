@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('tai_khoan', function (Blueprint $table) {
             $table->id('ID_TaiKhoan');
             $table->string('TenDN', 50);
-            $table->string('MatKhau', 100);
+            $table->string('MatKhau', 100); 
             $table->string('VaiTro', 50);
             $table->string('TrangThai', 50);
             $table->unsignedBigInteger('ID_CCCD');
